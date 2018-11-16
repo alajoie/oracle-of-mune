@@ -1,0 +1,12 @@
+import unittest
+import unittest.mock
+
+from unittest.mock import patch
+from src.acolyte import Acolyte
+
+class TestAcolyte(unittest.TestCase):
+    def test_interprets_2_as_No(self):
+        self.assertEqual(Acolyte().interpret(2), "No.")
+
+if __name__ == '__main__':
+    unittest.main()

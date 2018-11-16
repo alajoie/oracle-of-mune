@@ -2,7 +2,6 @@
 class Acolyte:
     def __init__(self):
         self.assertive_counter = 0
-        self.intervention_trigger = 0
         self.translations = [
                 "No, and...",
                 "No.",
